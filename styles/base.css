@@ -105,7 +105,7 @@ main {
     max-width: 100%;
     grid-column: 1/2;
     margin-top: 40px;
-    padding: px;
+    padding: 2px;
 }
 
 #myImage1, #myImage2{
