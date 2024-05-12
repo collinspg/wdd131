@@ -94,9 +94,9 @@ footer {
     padding: 10px 0;
     font-family: 'Exo 2', sans-serif;
 }
-footer::after {
+/* footer::after {
     content: "Portfolio Page";
-  }
+  } */
 
 /* Media query for smaller screens */
 @media screen and (max-width: 600px) {
