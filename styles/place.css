@@ -1,4 +1,8 @@
-
+:root {
+    --text-color: #fff; /* White text color */
+    --font-family: 'Roboto', sans-serif; /* Roboto font family */
+  }
+  
 body {
     font-family: 'Nanum Gothic Coding',  sans-serif;
     margin: 0;
