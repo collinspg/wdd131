@@ -1,5 +1,5 @@
 :root {
-    --text-color: #fff; /* White text color */
+    --background-color: grey; /* White text color */
     --font-family: 'Roboto', sans-serif; /* Roboto font family */
   }
   
@@ -12,9 +12,9 @@ body {
 h1{
     font-size: 42px;
 }
-h1, h2{
-    font-family: Roboto, sans-serif;
-}
+h1, h2 {
+    font-family: var(--font-family); 
+  }
 .hero img {
     max-width: 100%; 
     height: auto; 
@@ -28,7 +28,7 @@ header {
 }
 
 main {
-    background-color: grey; 
+    background-color: var(--background-color);  
     padding-top: 20px; /
     
 }
@@ -49,6 +49,7 @@ main {
     padding:25px;
     background-color:#D3D3D3; 
     color: #008080; 
+    
     
    
 }
