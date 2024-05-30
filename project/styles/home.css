@@ -30,7 +30,7 @@ header nav {
 }
 
 header nav a {
-    font-size: 25px;
+    font-size: 15px;
     font-family: "Texturina";
     text-decoration: none;
     color: black;
@@ -65,13 +65,13 @@ main {
 }
 
 main h1 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin-bottom: 10px;
     font-family: "Texturina";
 }
 
 main p {
-    font-size: 25px;
+    font-size: 15px;
     margin-bottom: 15px;
     padding: 10px;
 }
@@ -99,7 +99,7 @@ main p {
 
 .gallery-item p {
     margin-top: 10px;
-    font-size: 25px;
+    font-size: 15px;
 }
 
 .text {
@@ -133,7 +133,7 @@ footer nav a {
     color: #000;
     position: relative;
     padding: 10px;
-    font-size: 25px;
+    font-size: 15px;
     font-family: "Texturina";
 }
 
@@ -147,7 +147,7 @@ footer p {
     margin: 5px 0;
     flex-grow: 1;
     text-align: center;
-    font-size: 25px;
+    font-size: 15px;
 }
 
 .social-media {
