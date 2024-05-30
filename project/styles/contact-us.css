@@ -51,11 +51,6 @@ header nav a:hover {
     border-radius: 10px;
 }
 
-.hamburger-menu {
-    display: none;
-    font-size: 30px;
-    cursor: pointer;
-}
 
 main {
     padding: 20px;
@@ -174,6 +169,11 @@ footer p {
 
 /* Media Query for Mobile View */
 @media (max-width: 768px) {
+    .hamburger-menu {
+        display: none;
+        font-size: 30px;
+        cursor: pointer;
+    }
     .header-container {
         flex-direction: column;
         align-items: flex-start;
