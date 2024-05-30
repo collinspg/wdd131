@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Texturina:opsz,wght@12..72,700&family=Urbanist:wght@700&display=swap');
+
+body{
+    font-family: Urbanist, Helvetica, sans-serif;
+}
+header{
+    display: flex;
+    font-family: "Texturina";
+    background-color: #AACCFF;
+    padding:5px;
+    margin-bottom: 10px;
+}
+nav{
+   
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+nav a{
+    
+    text-decoration: none;
+}
+nav ul li{
+    display: flex;
+    font-size: 25px;
+    
+}
+main{
+    display:grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    background-color: whitesmoke;
+}
+img{
+    
+    height: 900px;
+    margin-bottom: 10px;
+    grid-column: 1/2;
+}
+.para{
+   margin-top: -800px;
+   margin-right: 50px;
+    grid-column: 2/3;
+    
+
+}
+.image{
+    
+    height: 900px;
+    margin-bottom: 10px;
+    grid-column: 3/4;
+}
+
+
+
+h2{
+    font-size: 30px;
+}
+p{
+    font-size: 20px;
+    
+}
+
+
+footer{
+    background-color: #AACCFF;
+    padding: 15px;
+    text-align: center;
+    font-size: 30px;
+}
+
