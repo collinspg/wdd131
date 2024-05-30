@@ -4,6 +4,9 @@ body, h1, p {
     margin: 0;
     padding: 0;
 }
+h1{
+    font-family: "Texturina";
+}
 .hamburger-menu {
     display: none;
     font-size: 30px;
@@ -179,7 +182,9 @@ footer p {
         flex-direction: column;
         align-items: flex-start;
     }
-
+    .rating-label {
+        font-size: 14px; 
+    }
     header nav {
         flex-direction: column;
         display: none;
