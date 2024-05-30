@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kolie's Home Electricals - Contact Us</title>
+    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals, Chibuike Collins Okolie, Kolie's Home Electricals">
+    <meta name="author" content="Chibuike Collins Okolie">
+    <link rel="stylesheet" href="styles/contact-us.css">
+    <script src="scripts/contact-us.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <a id="logo_link" href="index.html">
+                <img class="logo" src="images/kolie'slogo.png" alt="Kolie's Home Electricals logo">
+            </a>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="safety-first.html">Safety First</a>
+                <a href="wiringBasics-regMain.html">Wiring Basics & Regular Maintenance</a>
+                <a href="contact-us.html" class="active">Contact Us</a>
+            </nav>
+            <div class="hamburger-menu">&#9776;</div>
+        </div>
+    </header>
+    <main>
+        <h1>Contact Us</h1>
+        <form id="contactForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <label for="rating">Rate Our Services:</label>
+            <div class="rating">
+                <label class="rating-label">⭐
+                    <input aria-label="1 star" id="1star" type="radio" name="rating" value="1" required>
+                </label>
+                <label class="rating-label">⭐⭐
+                    <input aria-label="2 stars" id="2star" type="radio" name="rating" value="2" required>
+                </label>
+                <label class="rating-label">⭐⭐⭐
+                    <input aria-label="3 stars" id="3star" type="radio" name="rating" value="3" required>
+                </label>
+                <label class="rating-label">⭐⭐⭐⭐
+                    <input aria-label="4 stars" id="4star" type="radio" name="rating" value="4" required>
+                </label>
+                <label class="rating-label">⭐⭐⭐⭐⭐
+                    <input aria-label="5 stars" id="5star" type="radio" name="rating" value="5" required>
+                </label>
+            </div>
+
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <nav>
+                <a href="safety-first.html">Safety First</a>
+                <a href="wiringBasics-regMain.html">Wiring Basics & Regular Maintenance</a>
+                <a href="contact-us.html">Contact Us</a>
+            </nav>
+            <p>&copy; <span id="currentyear"></span> 🌼 Collins Okolie, 🌼 Nigeria</p>
+            <p id="lastModified"></p>
+            <div class="social-media">
+                <!-- Social media links will be dynamically added here -->
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
