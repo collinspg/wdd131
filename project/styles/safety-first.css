@@ -62,7 +62,7 @@ header nav a:hover {
 #sidebar {
     position: absolute;
     top: 100px;
-    right: 250px;
+    right: 150px;
     transform: translateY(50%);
     z-index: 1; 
     background-color: #AACCFF;
@@ -195,6 +195,11 @@ footer p {
     }
     #sidebar{
         display: none;
+    }
+    main {
+        padding: 20px;
+        margin: 0 auto; /* Center the main content */
+        max-width: 90%; /* Limit width for better readability */
     }
 
     header nav {
