@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Texturina:opsz,wght@12..72,700&family=Urbanist:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body, p {
     margin: 0;
     padding: 0;
@@ -183,6 +188,7 @@ footer {
     color: #000;
     text-align: center;
     padding: 10px 0;
+    width: 100%;
 }
 
 .footer-container {
@@ -228,6 +234,7 @@ footer p {
 .social-media a {
     margin-left: 10px;
 }
+
 
 
 
